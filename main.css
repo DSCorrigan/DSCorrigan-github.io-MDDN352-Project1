@@ -1,0 +1,517 @@
+@charset "utf-8";
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.top {
+	background-color: #CB7E31;
+	display: block;
+	margin: -0.5em;
+	left: auto;
+	right: auto;
+	overflow: hidden;
+	overflow-y: hidden;
+}
+
+#logo {
+	text-align: center;
+	margin: 10em 0em;
+}
+
+/* hidden fixed navigation */
+#fixedbar { 
+  	display: none;
+	position: fixed;
+ 	top: 0;
+	margin: auto -0.6em ;
+ 	width: 100%;
+ 	height: 4.5em;
+ 	background-color: #CB7E31;
+}
+ 
+#headerImg { 
+	text-align: left;
+ 	margin: 0;
+ 	padding: 1em 1.5em;
+}
+
+#main {
+	height: 30em;
+	float: left;
+	margin-left: 8em;
+	padding-top: 2em;
+}
+
+#bodyOne {
+	padding-top: 5em;
+	text-align: left;
+}
+
+#s1 {
+	text-align: left;
+	font-size: 2em;
+	color: #CB7E31;
+}
+
+.sectionOne > #s1 {
+    position: absolute;
+	left: 30%;
+    margin-top: 3em;
+	width: 35%;
+}
+
+.sectionOne > #bodyOne {
+    position: absolute;
+	left: 30%;
+    margin-top: 3em;
+	width: 35%;
+}
+
+#locked {
+	height: 30em;
+	float: right;
+	margin-right: 8em;
+	padding-top: 2em;
+}
+
+#s2 {
+	text-align: right;
+	font-size: 2em;
+	color: #CB7E31;
+}
+
+.sectionTwo > #s2 {
+    position: absolute;
+	right: 30%;
+    margin-top: 12.6em;
+	width: 35%;
+}
+
+.sectionTwo > #bodyTwo {
+	position: absolute;
+	right: 30%;
+	margin-top: 17em;
+	width: 35%;
+}
+
+#bodyTwo {
+	font-size: 1em;
+	padding-top: 5em;
+	text-align: right;
+}
+
+.sectionThree {
+	margin-top: 40em;
+	text-align: center;
+}
+
+#quote {
+	color: #CB7E31;
+	font-size: 5em;
+	margin: 0em 2em;
+}
+
+#quote1 {
+	color: #CB7E31;
+	font-size: 5em;
+	margin: 0em 2em;
+}
+
+#clock {
+	height: 8em;
+}
+
+.intro {
+	padding: 4em 0em;
+}
+
+.sectionFour {
+	margin-top: 15em;
+	margin-bottom: 15em;
+}
+
+.info {
+	display: flex;
+	flex-direction: row;
+	margin: 0em -0.5em;
+	overflow: hidden;
+}
+
+.info > * {
+	width: 24%
+}
+
+#info {
+	margin: 1em;
+	padding: 0em .7em;
+}
+
+#images {
+	height: 100%;
+	width: 100%;
+}
+
+.sectionFive {
+	background-color: #CB7E31;
+	margin: -0.5em;
+	padding: 5em 0em;
+	overflow: hidden;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+li {
+	list-style-type: none;
+}
+
+#otherTitle {
+	color: white;
+	font-size: 3em;
+	margin: .5em;
+}
+
+#other {
+	color: black;
+	margin-left: .5em;
+}
+
+#devices {
+	margin-top: 10em;
+	text-align: center;
+}
+
+#devicesInfo {
+	text-align: center;
+	margin: 2em 20em;
+	padding-bottom: 8em;
+}
+
+.sectionSix {
+	background-color: #CB7E31;
+	margin: -0.5em;
+	padding: 5em 0em;
+	overflow: hidden;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.end {
+	margin-top: 12em;
+	text-align: right;
+}
+
+/* footer */
+#footerLogo {
+	height: 4em;
+	padding: 1em 0em 0em 18em;
+	float: left;
+}
+
+#footerh4 {
+	padding: 1em 2em;
+	float: left;
+}
+
+.footer {
+	height: 6em;
+	background-color: #CB7E31;
+	display: block;
+	margin: 5em -0.5em -0.5em;
+	left: auto;
+	right: auto;
+	overflow: hidden;
+}
+
+/* responsive */
+@media screen and (max-width: 1024px) {
+	#main {
+		margin-left: 2em;
+	}
+	
+	#locked {
+		margin-right: 2em;
+	}
+	
+	.sectionTwo > #s2 {
+    margin-top: 13.4em;
+	}
+	
+	#quote {
+		margin-top: -1em;
+	}
+	
+	#images {
+		margin-top: -5em;
+	}
+	
+	#footerLogo {
+		padding-left: 7em;
+	}
+	
+	#footerh4 {
+		font-size: 1em;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.sectionOne > #s1 {
+    	margin-top: 1.5em;
+	}
+
+	.sectionOne > #bodyOne {
+    	margin-top: .01em;
+	}
+	
+	.sectionTwo > #s2 {
+    	margin-top: 10.4em;
+	}
+
+	.sectionTwo > #bodyTwo {
+    	margin-top: 10em;
+	}
+	
+	#logo img {
+		height: 12em;
+		margin: -1em 0em;
+	}
+	
+	#main {
+		height: 22em;
+		margin-left: 2em;
+	}
+	
+	#locked {
+		height: 22em;
+		margin-right: 2em;
+	}
+		
+	#quote {
+		margin-top: -2em;
+		font-size: 2.2em;
+		
+	}
+	
+	#quote1 {
+		margin-top: -2em;
+		font-size: 2.2em;
+	}
+	
+	#clock {
+		height: 5em;
+	}
+	
+	#devicesInfo {
+		margin: 2em 10em;
+	}
+	
+	.sectionFive, .sectionSix {
+		margin-top: -5em;
+		font-size: 1em;
+	}
+	
+	#other {
+		margin: 0em 2em;
+	}
+	
+	ul {
+		margin-right: 2.5em;
+	}
+	
+	#footerLogo {
+		padding: 1.5em 0em 0em 6em;
+		height: 3em;
+	}
+	
+	#footerh4 {
+		font-size: .8em;
+		margin-top: 2em;
+		font-weight: 200;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	#logo img {
+		height: 6em;
+		margin: -4em 0em;
+	}
+	
+	.sectionOne > #s1 {
+    	display: none;
+	}
+
+	.sectionOne > #bodyOne {
+    	margin: 1em 2em 0em 12em;
+		width: 40%;
+		left: 0%;
+	}
+	
+	#main {
+		height: 16em;
+		margin-top: 3em;
+		margin-left: 2em;
+	}
+	
+	.sectionTwo > #s2 {
+    	display: none;
+	}
+
+	.sectionTwo > #bodyTwo {
+    	margin: 20em 12em 0em 2em;
+		width: 40%;
+		right: 0%;
+	}
+	
+	#locked {
+		height: 16em;
+		margin-top: 20em;
+		margin-right: 2em;
+	}
+	
+	#quote {
+		margin-top: 25em;
+		font-size: 1.5em;
+	}
+	
+	#clock {
+		height: 4em;
+	}
+	
+	#images {
+		margin-top: -20em;
+	}
+	
+	.info {
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.info > * {
+		width: 90%;
+	}
+	
+	#devices img{
+		height: 11em;
+	}
+	
+	#devicesInfo {
+		margin: 1em 1.5em;
+		width: 90%;
+	}
+	
+	#footerLogo {
+		padding: 1em 0em 0em 8em;
+		height: 2.5em;
+	}
+	
+	#footerh4 {
+		font-size: .6em;
+		padding-left: 6em;
+		margin-top: -.5em;
+		font-weight: 200;
+	}
+	
+	.sectionFive, .sectionSix {
+		margin-top: -5em;
+		font-size: .8em;
+	}
+	
+	#other {
+		margin: 0em 1em;
+	}
+	
+	ul {
+		margin-right: 2.5em;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	#logo img {
+		height: 8em;
+		margin: -4em 0em;
+	}
+	
+	.sectionOne > #s1 {
+    	display: none;
+	}
+
+	.sectionOne > #bodyOne {
+    	margin: -1em 2em 0em 12em;
+		width: 40%;
+		left: 0%;
+	}
+	
+	#main {
+		height: 16em;
+		margin-top: 1em;
+		margin-left: 2em;
+	}
+	
+	.sectionTwo > #s2 {
+    	display: none;
+	}
+
+	.sectionTwo > #bodyTwo {
+    	margin: 20em 12em 0em 2em;
+		width: 40%;
+		right: 0%;
+	}
+	
+	#locked {
+		height: 16em;
+		margin-top: 1em;
+		margin-right: 2em;
+	}
+	
+	#quote {
+		margin-top: 20em;
+		font-size: 1.5em;
+	}
+	
+	#clock {
+		height: 3em;
+	}
+	
+	#quote1 {
+		font-size: 1.2em;
+		margin-top: -4em;
+	}
+	
+	#images {
+		margin-top: -20em;
+	}
+	
+	.info {
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.info > * {
+		width: 90%;
+	}
+	
+	#devicesInfo {
+		margin: 1em 1em;
+	}
+	
+	.sectionFive, .sectionSix {
+		margin-top: -5em;
+		font-size: .8em;
+	}
+	
+	ul {
+		margin-right: 2.5em;
+	}
+	
+	#footerLogo {
+		padding: 1em 0em 0em 7.5em;
+		height: 2em;
+	}
+	
+	#footerh4 {
+		font-size: .5em;
+		font-weight: 200;
+		margin-top: -.5em;
+		padding-left: 7em;
+	}
+	
+}
